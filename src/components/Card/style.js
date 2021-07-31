@@ -9,21 +9,22 @@ const style = StyleSheet.create({
     marginBottom: 15,
   },
   card: {
-    width: '60%',
+    width: '85%',
     borderRadius: 5,
     borderWidth: 1,
     borderColor: '#939393',
     padding: 10,
-    backgroundColor: '#FFF',
+    backgroundColor: 'black',
   },
   card_header_text: {
     fontWeight: 'bold',
+    color: 'white',
   },
   card_content: {
     marginTop: 20,
   },
   card_content_text: {
-    color: '#939393',
+    color: '#00DAFF',
     marginBottom: 10,
   },
 });

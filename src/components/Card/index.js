@@ -3,7 +3,7 @@ import {Text, View} from 'react-native';
 
 import style from './style';
 
-const Card = ({title, list}) => {
+const Card = ({title, items}) => {
   const renderItem = (item, index) => {
     return (
       <Text key={index} style={style.card_content_text}>
@@ -18,7 +18,7 @@ const Card = ({title, list}) => {
         <View>
           <Text style={style.card_header_text}>{title}</Text>
         </View>
-        <View style={style.card_content}>{list.map(renderItem)}</View>
+        <View style={style.card_content}>{items.map(renderItem)}</View>
       </View>
     </View>
   );
