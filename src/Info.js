@@ -17,8 +17,18 @@ export const BaneInfo = [
 
 export const JokerInfo = [
   {
-    title: 'Nada ainda',
-    items: [],
+    title: 'Dados pessoais',
+    items: [
+      'Nome real: Desconhecido',
+      'Ocupação: Desconhecida',
+      'Origem: Desconhecida',
+      'Cor dos olhos: Verde',
+      'Cor do cabelo: Verde',
+    ],
+  },
+  {
+    title: 'Basicamente, ele é ...',
+    items: ['Psicopata', 'Altamente inteligente', 'Imprevisível'],
   },
 ];
 
